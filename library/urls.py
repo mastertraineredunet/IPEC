@@ -25,4 +25,7 @@ urlpatterns = [
     path('deletebook/<int:id>/',views.deletebook, name='deletebook'),
     path('',views.home, name='home'),
     path('serachbook/',views.searchbook, name='searchbook'),
+    path('signup/',views.signup, name='signup'),
+    path('login/',views.login_view, name='login'),
+    path('logout/',views.logout_view, name='logout'),
 ]
